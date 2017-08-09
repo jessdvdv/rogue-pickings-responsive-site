@@ -161,7 +161,7 @@ footer span {
 }
 
 
-/*Setting up CSS structure by module*/
+/****Setting up CSS structure by module****/
 /*header styles*/
 header h1 {
 
@@ -191,4 +191,10 @@ header nav{
 .bottom-section p {
 
 }
+/*footer styles*/
+footer h4 {
 
+}
+footer span {
+
+}
