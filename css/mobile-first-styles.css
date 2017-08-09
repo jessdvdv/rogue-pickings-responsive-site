@@ -1,0 +1,50 @@
+/****Setting up the base text styles****/
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 1em;
+}
+
+
+/****Setting up CSS structure by module****/
+/*header styles*/
+header {
+	
+}
+
+header h1 {
+
+}
+header span{
+
+}
+header nav{
+
+}
+
+/*top section styles*/
+.top-section h3 {
+
+}
+.top-section p {
+
+}
+
+/*bottom section styles*/
+.bottom-section h4 {
+
+}
+.bottom-section li {
+
+}
+.bottom-section p {
+
+}
+/*footer styles*/
+footer h4 {
+
+}
+footer span {
+
+}
