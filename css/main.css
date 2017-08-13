@@ -1,9 +1,13 @@
+/**********GLOBAL*********/
+html {
+	font-size: 16px;
+}
 body {
 	max-width: 1200px; 
+	font-size: 1em;
 	margin: 0 auto; 
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
-
 
 h1, 
 h3, 
@@ -12,21 +16,21 @@ h4 {
 	text-transform: uppercase; 
 }
 h1 {
-	font-size: 30px; 
+	font-size: 1.875em; 
 	text-align: left; 
 	width: auto; 
 	float: left; 
 	padding: 15px 0;
 }
 h3 {
-	font-size: 18px; 
+	font-size: 1.125em; 
 	text-align: center; 
 	padding: 15px;
 }
 
 
 h4 {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 
@@ -39,49 +43,58 @@ h4 {
 p {
 	padding: 0px 30px; 
 	line-height: 21px; 
-	font-size: 14px;
+	font-size: .875em;
 }
 
 
+/**** MOBILE ****/
 /*The widths are in a percentage!*/
 
 header {
-	width: 100%; 
+	width: 90%; 
 	height: 110px; 
 	border-bottom: 3px solid #77a466; 
 	margin: 0 auto;
 }
 
+header h1{
+	width: 100%;
+	text-align: center;
+}
 header span {
 	color: #77a466;
 }
 header nav {
 	float: right; 
 	padding: 45px 0px;
+	width: 100%;
 }
 header nav a {
 	
 	text-decoration: none; 
 	text-transform: uppercase; 
 	font-weight: bold; 
-	font-size: 14px; 
+	font-size: .875em; 
 	text-decoration: none; 
 	text-transform: uppercase; 
 	font-weight: bold; 
+	width: 100%;
+	text-align: center;
+	display: block;
 }
+
 
 /*The widths are in a percentage!*/
 
 .top-section, 
 .bottom-section {
-	width: 100%; 
+	width: 90%; 
 	margin: 0 auto; 
 	clear: both;
 }
 .main-image {
 	width: 100%; 
 	height: auto; 
-	float: left;
 }
 .main-image img {
 	width: 100%; 
@@ -96,16 +109,15 @@ header nav a {
 .main-title p {
 	padding: 0px; 
 	line-height: 25px; 
-	font-size: 16px;
+	font-size: 1em;
 }
 
 
 .section-one, 
 .section-two, 
 .section-three {
-	width: 33%; 
+	width: 100%; 
 	height: auto; 
-	float: left; 
 	border-top: 1px solid #eee;
 }
 
@@ -136,11 +148,11 @@ header nav a {
 .reviews {
 	color: #333; 
 	line-height: 21px; 
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .address {
-	font-size: 16px; 
+	font-size: 1em; 
 	line-height: 24px;
 }
 
@@ -158,5 +170,261 @@ footer span {
 	font-family: "Wisdom Script", script; 
 	text-transform: lowercase; 
 	color: #77a466; 
-	font-size: 14px;
+	font-size: .875em;
+}
+
+
+/**** TABLETS ****/
+@media (min-width: 768px) {
+	/*The widths are in a percentage!*/
+
+	header {
+		width: 100%; 
+		height: 110px; 
+		border-bottom: 3px solid #77a466; 
+		margin: 0 auto;
+	}
+
+	header h1{
+		width: 33%;
+		text-align: left;
+	}
+	header span {
+		color: #77a466;
+	}
+	header nav {
+		float: right; 
+		padding: 50px 0px;
+		width: 50%;
+	}
+	header nav a {
+		
+		text-decoration: none; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		font-size: .875em; 
+		font-weight: bold; 
+		color:#77a466;
+		display: inline;
+	}
+
+
+	/*The widths are in a percentage!*/
+
+	.top-section, 
+	.bottom-section {
+		width: 100%; 
+		margin: 0 auto; 
+		clear: both;
+	}
+	.main-image {
+		width: 100%; 
+		height: auto; 
+		float: left;
+	}
+	.main-image img {
+		width: 100%; 
+		border-bottom: 3px solid #77a466;
+	}
+	.main-title {
+		width: 100%; 
+		height: auto; 
+		float: left;
+		margin: auto;
+	}
+
+	.main-title p {
+		line-height: 25px; 
+		font-size: 1em;
+	}
+
+
+	.section-one, 
+	.section-two, 
+	.section-three {
+		width: 33%; 
+		height: auto; 
+		float: left;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one, 
+	.section-two {
+		border-right: 1px solid #eee;
+	}
+
+	.section-one h4 {
+		padding: 10px 0px;
+	}
+
+	.section-two h4, 
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+
+	.menu {
+		list-style: none; 
+		padding: 0px;
+	}
+
+	.menu li {
+		padding: 10px 0; 
+		color:#77a466;
+	}
+
+	.reviews {
+		color: #333; 
+		line-height: 21px; 
+		font-size: 1em;
+	}
+
+	.address {
+		font-size: 1em; 
+		line-height: 24px;
+	}
+
+	/*The widths are in a percentage!*/
+
+	footer {
+		width: 100%; 
+		height: 50px; 
+		border-top: 3px solid #eee; 
+		margin: 0 auto; 
+		clear: both; 
+		text-align: center;
+	}
+	footer span {
+		font-family: "Wisdom Script", script; 
+		text-transform: lowercase; 
+		color: #77a466; 
+		font-size: .875em;
+	}
+}
+
+
+/**** DESKTOP ****/
+@media (min-width: 1030px) {
+	/*The widths are in a percentage!*/
+
+	header {
+		width: 100%; 
+		height: 110px; 
+		border-bottom: 3px solid #77a466; 
+		margin: 0 auto;
+	}
+
+	header h1{
+		width: 25%;
+		text-align: left;
+	}
+
+	header span {
+		color: #77a466;
+	}
+
+	header nav {
+		float: right; 
+		padding: 45px 0px;
+		width: 45%;
+	}
+
+	header nav a {
+		text-decoration: none; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		font-size: .875em; 
+		font-weight: bold; 
+		color:#77a466;
+		display: inline;
+	}
+
+	/*The widths are in a percentage!*/
+
+	.top-section, 
+	.bottom-section {
+		width: 100%; 
+		margin: 0 auto; 
+		clear: both;
+	}
+	.main-image {
+		width: 100%; 
+		height: auto; 
+		float: left;
+	}
+	.main-image img {
+		width: 100%; 
+		border-bottom: 3px solid #77a466;
+	}
+	.main-title {
+		width: 100%; 
+		height: auto; 
+		float: left;
+		margin: auto;
+	}
+
+	.main-title p {
+		line-height: 25px; 
+		font-size: 1em;
+	}
+
+	.section-one, 
+	.section-two, 
+	.section-three {
+		width: 33%; 
+		height: auto; 
+		float: left;
+		border-top: 1px solid #eee;
+	}
+
+	.section-one, 
+	.section-two {
+		border-right: 1px solid #eee;
+	}
+
+	.section-one h4 {
+		padding: 10px 0px;
+	}
+
+	.section-two h4, 
+	.section-three h4 {
+		padding: 10px 30px;
+	}
+
+	.menu {
+		list-style: none; 
+		padding: 0px;
+	}
+
+	.menu li {
+		padding: 10px 0; 
+		color:#77a466;
+	}
+
+	.reviews {
+		color: #333; 
+		line-height: 21px; 
+		font-size: 1em;
+	}
+
+	.address {
+		font-size: 1em; 
+		line-height: 24px;
+	}
+
+	/*The widths are in a percentage!*/
+
+	footer {
+		width: 100%; 
+		height: 50px; 
+		border-top: 3px solid #eee; 
+		margin: 0 auto; 
+		clear: both; 
+		text-align: center;
+	}
+	footer span {
+		font-family: "Wisdom Script", script; 
+		text-transform: lowercase; 
+		color: #77a466; 
+		font-size: .875em;
+	}
 }
