@@ -4,13 +4,13 @@ body {
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
+
 h1, 
 h3, 
 h4 {
 	color: black; 
 	text-transform: uppercase; 
 }
-
 h1 {
 	font-size: 30px; 
 	text-align: left; 
@@ -18,16 +18,17 @@ h1 {
 	float: left; 
 	padding: 15px 0;
 }
-
 h3 {
 	font-size: 18px; 
 	text-align: center; 
 	padding: 15px;
 }
 
+
 h4 {
 	font-size: 12px;
 }
+
 
 .main-title h3 {
 	text-align: left; 
@@ -35,14 +36,15 @@ h4 {
 	text-transform: uppercase; 
 	color: #77a466; 
 }
-
 p {
 	padding: 0px 30px; 
 	line-height: 21px; 
 	font-size: 14px;
 }
 
+
 /*The widths are in a percentage!*/
+
 header {
 	width: 100%; 
 	height: 110px; 
@@ -53,40 +55,38 @@ header {
 header span {
 	color: #77a466;
 }
-
 header nav {
 	float: right; 
 	padding: 45px 0px;
 }
-
 header nav a {
+	
 	text-decoration: none; 
 	text-transform: uppercase; 
 	font-weight: bold; 
 	font-size: 14px; 
-	padding: 0 10px; 
-	color:#77a466;
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold; 
 }
 
 /*The widths are in a percentage!*/
+
 .top-section, 
 .bottom-section {
 	width: 100%; 
 	margin: 0 auto; 
 	clear: both;
 }
-
 .main-image {
 	width: 100%; 
 	height: auto; 
 	float: left;
 }
-
 .main-image img {
 	width: 100%; 
 	border-bottom: 3px solid #77a466;
 }
-
 .main-title {
 	width: 100%; 
 	height: auto; 
@@ -98,6 +98,7 @@ header nav a {
 	line-height: 25px; 
 	font-size: 16px;
 }
+
 
 .section-one, 
 .section-two, 
@@ -144,6 +145,7 @@ header nav a {
 }
 
 /*The widths are in a percentage!*/
+
 footer {
 	width: 100%; 
 	height: 50px; 
@@ -152,49 +154,9 @@ footer {
 	clear: both; 
 	text-align: center;
 }
-
 footer span {
 	font-family: "Wisdom Script", script; 
 	text-transform: lowercase; 
 	color: #77a466; 
 	font-size: 14px;
-}
-
-
-/****Setting up CSS structure by module****/
-/*header styles*/
-header h1 {
-
-}
-header span{
-
-}
-header nav{
-
-}
-
-/*top section styles*/
-.top-section h3 {
-
-}
-.top-section p {
-
-}
-
-/*bottom section styles*/
-.bottom-section h4 {
-
-}
-.bottom-section li {
-
-}
-.bottom-section p {
-
-}
-/*footer styles*/
-footer h4 {
-
-}
-footer span {
-
 }
